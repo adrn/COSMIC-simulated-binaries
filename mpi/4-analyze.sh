@@ -10,9 +10,10 @@
 source ~/.bash_profile
 init_conda
 conda activate dr17-binaries
+export HQ_RUN_PATH=/mnt/home/apricewhelan/projects/katie-simulated-binaries/hq-config
 echo $HQ_RUN_PATH
 
-cd /mnt/ceph/users/apricewhelan/projects/apogee-dr17-binaries
+cd /mnt/ceph/users/apricewhelan/projects/katie-simulated-binaries
 
 date
 
