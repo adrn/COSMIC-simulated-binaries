@@ -1,2 +1,2 @@
-#DISBATCH REPEAT XX start 0 source /mnt/home/apricewhelan/.bash_profile; init_conda; conda activate dr17-binaries; cd /mnt/ceph/users/apricewhelan/projects/katie-simulated-binaries/mpi/logs/mcmc; export HQ_RUN_PATH=/mnt/home/apricewhelan/projects/katie-simulated-binaries/hq-config; hq run_mcmc --index ${DISBATCH_REPEAT_INDEX} -v &> disbatch_${DISBATCH_REPEAT_INDEX}.log
+#DISBATCH REPEAT 2090 start 0 source /mnt/home/apricewhelan/.bash_profile; init_conda; conda activate dr17-binaries; cd /mnt/ceph/users/apricewhelan/projects/katie-simulated-binaries/mpi/logs/mcmc; export HQ_RUN_PATH=/mnt/home/apricewhelan/projects/katie-simulated-binaries/hq-config; hq run_mcmc --index ${DISBATCH_REPEAT_INDEX} -v &> logs/mcmc/disbatch_${DISBATCH_REPEAT_INDEX}.log
 
